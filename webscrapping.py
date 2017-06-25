@@ -5,8 +5,8 @@ for establishing a connection with the website that is going to
 be scrapped"""
 from bs4 import BeautifulSoup as soup
 
-"""BeautifulSoup is respomsible for parsing the HTML from a webpage and
-make it more 'read'able' for our scrapper"""
+"""BeautifulSoup is responsible for parsing the HTML from a webpage and
+make it more 'readable' for our scrapper"""
 url = "https://en.wikipedia.org/wiki/Linus_Torvalds"
 
 """uReq will create a connection, grab the webpage and download it"""
