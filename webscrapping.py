@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup as soup
 make it more 'read'able' for our scrapper"""
 url = "https://en.wikipedia.org/wiki/Linus_Torvalds"
 
-"""uReq will create a connection, grab the webpage and dounload it"""
+"""uReq will create a connection, grab the webpage and download it"""
 uClient = uReq(url)
 """allocates this data into a variable"""
 page_html = uClient.read()
