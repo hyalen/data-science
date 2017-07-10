@@ -28,7 +28,7 @@ y = dataset.iloc[:, 1].values #Column with dependent variables, salaries
 """We have 30 observations in the Salary sample, but we only need 1/3 in the test set, which are 10 elements.
 Our training model will have 20 elements in order to make it learn from the data.
 random_state = 0 ensures that the data is split in exactly the same manner each time we run the code."""
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split #You should use cross_validation from sklearn if you're using Python 2.x
 Y_train, y_test, x_train, x_test = train_test_split(X, y, test_size = 1/3, random_state = 0)
 
 
