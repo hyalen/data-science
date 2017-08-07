@@ -15,10 +15,10 @@ import java.util.*;
  *
  * 2) What will be tested in this code?
  * The following concepts and core ideas taken from the book will be tested:
- * - matrix of weights
- * - matrix of inputs
- * - threshold to trigger the output
- * - sigmoid function
+ * - weights
+ * - input layer
+ * - output layer
+ * - activation function (Sigmoid)
  */
 class Perceptron {
   //first matrix of nodes (input layer)
@@ -30,14 +30,10 @@ class Perceptron {
   //matrix that stores the multiplication between node and weight
   double [][] nodeWeight;
 
-
   double [][] hiddenLayer1;
 
   //dimensions from our matrices
   int line1, column1, line2, column2;
-
-  //threshold to be applied with backpropagation
-  double threshold;
 
   /**
    * Constructor
