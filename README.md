@@ -1,6 +1,6 @@
-# data-science
+# Data Science
 
-This repository is for learning purposes only. Made by Hyalen Neves Caldeira and Carolina Serrano Lopes. 
+This repository is for learning purposes only. Created by Hyalen Neves Caldeira and Carolina Serrano Lopes. 
 
 # Preparing data...
 
@@ -21,6 +21,4 @@ Outputs are basically the values that pops out from the last layer of nodes. The
    -- A good way to solve this is to set the range between 0.0 and 1.0 (at this point of the text you know that actual 0 or actual 1 cant       be made, so just set the range between 0.01 and 0.99).
 
 # Initial Weights:
-The same arguments that covers the initial input and output values must be considered here as well. We should keep large signals away from our network, because it saturates it and reduces the ability to learn better weights. So, we could use a range between -1 and 1, right? It should solve the issue. Well, we can do better...
-
-   -- 
+The same arguments that covers the initial input and output values must be considered here as well. We should keep large signals away from our network, because it saturates it and reduces the ability to learn better weights. So, we could use a range between -1 and 1, right? It should solve the issue.
